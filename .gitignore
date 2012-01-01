@@ -4,9 +4,12 @@
 
 # Configuration Files
 */.htpasswd
-*/config/testing
-*/config/production
-*/config/development
+*/config/testing/*
+*/config/testing/!index.html
+*/config/production/*
+*/config/production/!index.html
+*/config/development/*
+*/config/development/!index.html
 
 # Logs
 */logs/chrome/*
