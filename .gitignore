@@ -34,14 +34,14 @@
 #
 # Temporary Files
 #
-.*
-!.gitignore
-~*
-*~
-._*
-Thumbs.db
+#.*
+#!.gitignore
+#~*
+#*~
+#._*
+#Thumbs.db
 .DS_Store
-.DS_Store*
-.Trashes
-Desktop.ini
-.Spotlight-V100
+#.DS_Store*
+#.Trashes
+#Desktop.ini
+#.Spotlight-V100
