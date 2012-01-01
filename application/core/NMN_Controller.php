@@ -14,12 +14,20 @@ class NMN_Controller extends CI_Controller
 		parent::__construct();
 
 		/** 
+		 * Forensics Profiler
+		 *
+		 * Enable or disable the forensics profiler.
+		 */
+		// $this->output->enable_profiler(false);
+		$this->output->enable_profiler(true);
+
+		/** 
 		 * ChromePhp
 		 *
 		 * If class is not auto-loaded, you have to load it here.
 		 */
 		//$this->load->library('ChromePhp');
-		
+
 		/**
 		 * ChromePhp
 		 *
