@@ -1,0 +1,47 @@
+# ----------------------------------------------------------------------------
+#  NMN-CI-StarterKit .gitignore file
+# ----------------------------------------------------------------------------
+
+#
+# Configuration Files
+#
+*/.htpasswd
+*/config/testing
+*/config/production
+*/config/development
+
+#
+# Logs
+#
+*/logs/chrome/*
+*/logs/log-*.php
+*/logs/!chrome/
+*/logs/!index.html
+*/logs/chrome/!index.html
+
+#
+# Cache
+#
+*/cache/*
+*/cache/db/*
+*/cache/assets/*
+*/cache/!index.html
+*/cache/assets/!index.html
+*/cache/db/!index.html
+*/cache/!assets/
+*/cache/!db/
+
+#
+# Temporary Files
+#
+.*
+!.gitignore
+~*
+*~
+._*
+Thumbs.db
+.DS_Store
+.DS_Store*
+.Trashes
+Desktop.ini
+.Spotlight-V100
