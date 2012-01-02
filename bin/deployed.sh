@@ -10,7 +10,8 @@ chown -R norman:www-data $BASEDIR
 chmod -R 775 $BASEDIR 
 
 # set extra permissions to cache/ and log/ dirs
-chmod -R 777 $BASEDIR/cache $BASEDIR/log 
+chmod -R 777 $BASEDIR/cache $BASEDIR/logs 
 
-
+# touch testfile
+touch $BASEDIR/.deployed
 
